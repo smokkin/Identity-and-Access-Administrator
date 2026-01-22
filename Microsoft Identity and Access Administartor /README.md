@@ -27,25 +27,25 @@ Task 1: Add a New User
 - Finalize Creation: Proceed to Review + Create, then confirm by selecting Create. The system registers the user, integrating them into the directory.Updated Users List After Creation
 - The screenshots below confirms the user addition, displaying Chris Green in the roster with details like user type and sync status.
   
-<img width="460" height="230" alt="image" src="https://github.com/user-attachments/assets/3c206c6e-7705-490d-9000-0f5899592bef" /> <img width="460" height="230" alt="image" src="https://github.com/user-attachments/assets/4eb0f7f3-9bb5-46c7-a831-ab9eb82f43db" /> <img width="460" height="230" alt="image" src="https://github.com/user-attachments/assets/7cf2a0e6-4ace-4ea6-a364-aed1352c1c15" />
+<img width="440" height="230" alt="image" src="https://github.com/user-attachments/assets/3c206c6e-7705-490d-9000-0f5899592bef" /> <img width="440" height="230" alt="image" src="https://github.com/user-attachments/assets/4eb0f7f3-9bb5-46c7-a831-ab9eb82f43db" /> <img width="440" height="230" alt="image" src="https://github.com/user-attachments/assets/7cf2a0e6-4ace-4ea6-a364-aed1352c1c15" />
 
 Task 2: Login and Try to Create an App
 
 This task validates the user's baseline permissions, demonstrating Entra ID's role enforcement by attempting privileged actions without the Application Administrator role assigned.
 
 - Launched an Isolated Browser Session: Opened an InPrivate window to simulate a dfferent user context, preventing session overlap.
-- Authenticate as New User: Navigate to https://entra.microsoft.com and sign in with: - Username: ChrisG@yourdomain.com - Password: The auto-generated value from Task 1.
+- Authenticate as New User: Navigate to https://entra.microsoft.com and sign in with: - Username: ChrisG@ Entra domain - Password: The auto-generated value from Task 1.
 - New User Sign-In Prompt:
   captures the initial login screen for Chris Green.
   Execute Password Reset: Update the password as prompted, given it's the first sign-in or could be due to expiration.
   
-  <img width="460" height="230" alt="image" src="https://github.com/user-attachments/assets/dec01c57-6e6b-4089-83d6-5aabeff38dab" /> <img width="460" height="230" alt="image" src="https://github.com/user-attachments/assets/e22987b3-5662-496a-ace6-efa4fc717631" />
+  <img width="440" height="230" alt="image" src="https://github.com/user-attachments/assets/dec01c57-6e6b-4089-83d6-5aabeff38dab" /> <img width="440" height="230" alt="image" src="https://github.com/user-attachments/assets/e22987b3-5662-496a-ace6-efa4fc717631" />
   
   Current Password: Auto-generated value
   New Password: A robust, unique string
   Confirm: Re-enter the new password
   
-  <img width="460" height="230" alt="image" src="https://github.com/user-attachments/assets/8b6e2940-04aa-43d1-a182-0563b02b690c" />
+  <img width="440" height="230" alt="image" src="https://github.com/user-attachments/assets/8b6e2940-04aa-43d1-a182-0563b02b690c" />
 
 - This enforces security by requiring a change on first login.
 - Accessed Enterprise Applications: Searched for and selected Enterprise applications. I Observe the gallery of integrated apps, such as AWS and Google Cloud.Enterprise Applications Gallery
@@ -53,12 +53,12 @@ This task validates the user's baseline permissions, demonstrating Entra ID's ro
 - Attempted Application Creation: Click + New application. Note that + Create your own application is greyed out, illustrating permission limitations.
 - This shows registered enterprise apps, confirming visibility but no creation rights.
   
-  <img width="460" height="230" alt="image" src="https://github.com/user-attachments/assets/5c0fc679-3746-476e-9332-30ffa31d7e06" />
+  <img width="440" height="230" alt="image" src="https://github.com/user-attachments/assets/5c0fc679-3746-476e-9332-30ffa31d7e06" /> <img width="440" height="230" alt="image" src="https://github.com/user-attachments/assets/4b4f5d57-eb68-4596-808e-6f88e658c40c" />
   
 - Tested for Additional Privileges: Navigated to settings > Consent and permissions or User settings. Encountered access denials, confirming the absence of administrative rights.Access Denied in Consent Settings.
 - This error page (401 unauthorised) exemplifies RBAC restrictions on sensitive areas.
   
-  <img width="460" height="230" alt="image" src="https://github.com/user-attachments/assets/4b4f5d57-eb68-4596-808e-6f88e658c40c" /> <img width="460" height="230" alt="image" src="https://github.com/user-attachments/assets/f042e594-564b-4dc3-b0ff-4e96cac00c0a" />
+  <img width="440" height="230" alt="image" src="https://github.com/user-attachments/assets/f042e594-564b-4dc3-b0ff-4e96cac00c0a" />
 
 
 
