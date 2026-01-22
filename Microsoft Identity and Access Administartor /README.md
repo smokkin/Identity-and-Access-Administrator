@@ -34,16 +34,19 @@ Task 2: Login and Try to Create an App
 This task validates the user's baseline permissions, demonstrating Entra ID's role enforcement by attempting privileged actions without the Application Administrator role assigned.
 
 - Launched an Isolated Browser Session: Opened an InPrivate window to simulate a dfferent user context, preventing session overlap.
-- Authenticate as New User: Navigate to https://entra.microsoft.com and sign in with: - Username: ChrisG@ Entra domain - Password: The auto-generated value from Task 1.
+- Authenticate as New User:
+  - Navigate to https://entra.microsoft.com and sign in with:
+  - Username: ChrisG@ Entra domain
+  - Password: The auto-generated value from Task 1.
 - New User Sign-In Prompt:
   captures the initial login screen for Chris Green.
   Execute Password Reset: Update the password as prompted, given it's the first sign-in or could be due to expiration.
   
   <img width="440" height="230" alt="image" src="https://github.com/user-attachments/assets/dec01c57-6e6b-4089-83d6-5aabeff38dab" /> <img width="440" height="230" alt="image" src="https://github.com/user-attachments/assets/e22987b3-5662-496a-ace6-efa4fc717631" />
   
-  Current Password: Auto-generated value
-  New Password: A robust, unique string
-  Confirm: Re-enter the new password
+   - Current Password: Auto-generated value
+   - New Password: A unique string
+   - Confirm: Re-enter the new password
   
   <img width="440" height="230" alt="image" src="https://github.com/user-attachments/assets/8b6e2940-04aa-43d1-a182-0563b02b690c" />
 
