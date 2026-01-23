@@ -16,7 +16,7 @@ The role can manage existing application registrations and service principals
 # Step-by-Step Walkthrough 
 Exercise 1: Create New User & Test Application Admin Rights
 
-Task 1: Add a New User
+# Task 1: Add a New User
 
 - Initiate Global Administrator Session: Access the Microsoft Entra admin center at https://entra.microsoft.com using your Microsoft 365 admin credentials. This step authenticates you with elevated privileges necessary for user management.
 - Navigate to User Management: Expand the Entra ID section in the left-hand menu if collapsed. Under Users, select All Users, then click + New User followed by Create new user. This interface allows for bulk or individual user additions, streamlining onboarding.
@@ -29,7 +29,7 @@ Task 1: Add a New User
   
 <img width="440" height="230" alt="image" src="https://github.com/user-attachments/assets/3c206c6e-7705-490d-9000-0f5899592bef" /> <img width="440" height="230" alt="image" src="https://github.com/user-attachments/assets/4eb0f7f3-9bb5-46c7-a831-ab9eb82f43db" /> <img width="440" height="230" alt="image" src="https://github.com/user-attachments/assets/7cf2a0e6-4ace-4ea6-a364-aed1352c1c15" />
 
-Task 2: Login and Try to Create an App
+#mTask 2: Login and Try to Create an App
 
 This task validates the user's baseline permissions, demonstrating Entra ID's role enforcement by attempting privileged actions without the Application Administrator role assigned.
 
