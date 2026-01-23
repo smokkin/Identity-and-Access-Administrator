@@ -76,7 +76,7 @@ It limits broader actions like managing users, groups, or conditional access pol
 The ket dfference is that Cloud Application Administrator offers similar permissions plus consent on behalf of all users and user assignments to apps. Application Administrator cannot do those.
 Privileged Identity Management (PIM): In tenants with Microsoft Entra ID P2, PIM enables just-in-time or time-bound roles. Assignments may be "Eligible" (requires activation) rather than permanent "Active".
 
-<u>Task 1: Assign the Application Administrator Role to Chris Green<u>
+# Task 1: Assign the Application Administrator Role to Chris Green
 Using Microsoft Entra ID, organizations can designate limited administrators to manage specific identity tasks. This prevents "admin bloat" and secures the environment by ensuring users only have the permissions they need.
  - Log in to the Microsoft Entra admin center with your administrator account.
  - In the left-hand menu, navigate to Identity > Users > All users.
@@ -85,21 +85,21 @@ Using Microsoft Entra ID, organizations can designate limited administrators to 
 
  - Once in Chris Green's profile, select Assigned roles from the Manage menu.
  - Select the + Add assignments button at the top of the page.
-<img width="554" height="332" alt="image" src="https://github.com/user-attachments/assets/8b25de40-1500-4e2a-8196-e08a1448d282" />
+<img width="450" height="271" alt="image" src="https://github.com/user-attachments/assets/8b25de40-1500-4e2a-8196-e08a1448d282" />
 
  - Configure Role Details and PIM - In the Select role dropdown or search box, find and select Application administrator.
-<img width="791" height="475" alt="image" src="https://github.com/user-attachments/assets/b30e3671-4ae4-4764-b9c8-16a0655707c0" />
+<img width="450" height="271" alt="image" src="https://github.com/user-attachments/assets/b30e3671-4ae4-4764-b9c8-16a0655707c0" />
 
  - Select Next to move to the assignment settings.
  - Set the Assignment Type to Active.
  - Justification: In the text box, enter a reason such as "Needed for lab".
  - Note: If your environment uses Privileged Identity Management (PIM), you may need to specify if this is a "Permanent" or "Eligible" assignment
-<img width="791" height="472" alt="image" src="https://github.com/user-attachments/assets/ade67952-1178-4aa6-b02b-d88ebd54a1fa" />
+<img width="450" height="271" alt="image" src="https://github.com/user-attachments/assets/ade67952-1178-4aa6-b02b-d88ebd54a1fa" />
 
  - Select Refresh to verify that the role now appears in the user's active assignments
-<img width="785" height="471" alt="image" src="https://github.com/user-attachments/assets/905ca7bf-4cc6-4dfa-9418-afc82f451957" />
+<img width="450" height="271" alt="image" src="https://github.com/user-attachments/assets/905ca7bf-4cc6-4dfa-9418-afc82f451957" />
 
-<u>Task 2: Verifying Permissions as the New Admin<u>
+# Task 2: Verifying Permissions as the New Admin
 After delegating a role, it is a best practice to verify that the user can actually perform the intended tasks but remains restricted from others.
  - Go to https://entra.microsoft.com and log in as Chris Green.
  - Username: ChrisG@entradomain.com.
@@ -107,6 +107,7 @@ After delegating a role, it is a best practice to verify that the user can actua
 
  - Search for and select Enterprise applications from the top search bar or the left menu.
  - Observe that the + New Application button is now clickable (it would be grayed out if role is not yet appproved has shown in previous exercise).
-   <img width="789" height="471" alt="image" src="https://github.com/user-attachments/assets/66f4b748-7523-4206-ac2f-2f2c1bde88a0" /> <img width="794" height="472" alt="image" src="https://github.com/user-attachments/assets/85e7d75a-b50d-4071-bf07-bb587a551ca0" />
+
+<img width="450" height="271" alt="image" src="https://github.com/user-attachments/assets/66f4b748-7523-4206-ac2f-2f2c1bde88a0" /> <img width="450" height="271" alt="image" src="https://github.com/user-attachments/assets/85e7d75a-b50d-4071-bf07-bb587a551ca0" />
 
 Chris Green now has the specific authority to add and manage applications within the tenant without having broad access
