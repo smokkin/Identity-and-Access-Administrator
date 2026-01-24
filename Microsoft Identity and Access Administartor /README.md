@@ -111,3 +111,5 @@ After delegating a role, it is a best practice to verify that the user can actua
 <img width="450" height="271" alt="image" src="https://github.com/user-attachments/assets/66f4b748-7523-4206-ac2f-2f2c1bde88a0" /> <img width="450" height="271" alt="image" src="https://github.com/user-attachments/assets/85e7d75a-b50d-4071-bf07-bb587a551ca0" />
 
 Chris Green now has the specific authority to add and manage applications within the tenant without having broad access
+
+
