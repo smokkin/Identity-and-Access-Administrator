@@ -116,5 +116,36 @@ Chris Green now has the specific authority to add and manage applications within
 <img width="1431" height="773" alt="image" src="https://github.com/user-attachments/assets/c91c1f91-95f3-4c54-a053-02bdf8124101" />
 <img width="806" height="554" alt="image" src="https://github.com/user-attachments/assets/d3cf7155-c7f1-4a19-9587-d1d86f0c761c" />
 
-<img width="1176" height="656" alt="image" src="https://github.com/user-attachments/assets/6eee6d81-215a-4f67-826e-444d0b19d780" />
+<img width="1122" height="626" alt="image" src="https://github.com/user-attachments/assets/95189cfb-67b5-4b3d-afb6-4c074b8eb189" />
+<img width="1133" height="644" alt="image" src="https://github.com/user-attachments/assets/5fe88e07-30f0-4482-bd69-28c6342661cb" />
+<img width="1126" height="638" alt="image" src="https://github.com/user-attachments/assets/4f5924c0-3996-427d-851d-8a43c1ebf27d" />
+<img width="1426" height="769" alt="image" src="https://github.com/user-attachments/assets/39a2a4fe-6e52-46f1-8523-1d3d9431368d" />
+
+
+<img width="1431" height="774" alt="image" src="https://github.com/user-attachments/assets/35a812cb-f92a-43cb-b262-ba2fa288184d" />
+<img width="1430" height="776" alt="image" src="https://github.com/user-attachments/assets/da62db29-fcd0-48bd-b34d-892ead7c4974" />
+<img width="1422" height="761" alt="image" src="https://github.com/user-attachments/assets/4cb706f8-b9cd-4c9c-8aa8-1cec68692346" />
+
+<img width="1429" height="771" alt="image" src="https://github.com/user-attachments/assets/dd2cd88e-c4ac-49f7-bd70-bc1049f509af" />
+<img width="1430" height="772" alt="image" src="https://github.com/user-attachments/assets/5bf81c26-a288-46a6-b4d5-c8538ea60eb8" />
+<img width="1428" height="779" alt="image" src="https://github.com/user-attachments/assets/ca6bf90c-e222-46e1-9205-15c00b67eb15" />
+
+<img width="1428" height="774" alt="image" src="https://github.com/user-attachments/assets/ecb51cca-0b88-4cb3-8555-846ac1e67c6e" />
+<img width="1432" height="773" alt="image" src="https://github.com/user-attachments/assets/5128e32d-e8af-4dd8-8a0d-a7940a5f4194" />
+
+<img width="1433" height="777" alt="image" src="https://github.com/user-attachments/assets/639578fe-5522-4d67-8c63-d190d9abf6f4" />
+<img width="1427" height="777" alt="image" src="https://github.com/user-attachments/assets/05ef0bf5-8d60-4b3c-93c6-1e0ee8216d45" />
+<img width="1430" height="774" alt="image" src="https://github.com/user-attachments/assets/6ad04dce-9375-452e-b14d-60f42eb983bc" />
+<img width="1431" height="771" alt="image" src="https://github.com/user-attachments/assets/a05fa447-dd03-4a25-bdbe-d5a9fdcdd3d1" />
+<img width="1433" height="775" alt="image" src="https://github.com/user-attachments/assets/0ec008bc-fa81-4b87-bb82-d967ae8c8a4e" />
+<img width="1429" height="771" alt="image" src="https://github.com/user-attachments/assets/3891a58b-ff96-4f50-aa5b-d713f1ae0419" />
+
+
+
+
+
+
+
+
+
 
