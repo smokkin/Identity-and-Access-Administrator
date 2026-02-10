@@ -169,9 +169,53 @@ After the users have been created, you will be prompted that the creation has su
 <img width="1429" height="772" alt="image" src="https://github.com/user-attachments/assets/88546490-8807-46f9-8b4d-3f289f195793" />
 <img width="806" height="554" alt="image" src="https://github.com/user-attachments/assets/d3cf7155-c7f1-4a19-9587-d1d86f0c761c" />
 
+
+Task 2 - Bulk addition of users using PowerShell
+Open PowerShell.  This can be done by searching for PowerShell in Windows.
+
+Note - You need to have PowerShell version 7.2 or higher for this lab to function. When PowerShell opens you will get a version at the top of the screen, if you are running and older version, follow the instructions on the screen to go to https://aka.ms/PowerShell-Release?tag=7.3.9. Scroll down to the assets section and select powershell-7.3.1-win-x64.msi. When the download has completed, select Open file. Install using all the defaults.
+
+Lab Tip - TouchType does not work with PowerShell well in the lab environment. To work around this issue, you open Notepad in you lab environment. Next use the TouchType feature to place the script into Notepad, then finally use Copy & Paste to put the command into PowerShell. Apologies for this extra step.
+
+You will need to Install the Microsoft.Graph PowerShell module if you have not used it before. Run the following two commands and when prompted to confirm press Y:
+
+TypeCopy
+Install-Module Microsoft.Graph -Scope CurrentUser -Verbose
+Confirm the Microsoft.Graph module is installed:
+
+TypeCopy
+Get-InstalledModule Microsoft.Graph
+Next, you will need to login to Microsoft Graph API by running:
+
+TypeCopy
+Connect-MgGraph -Scopes "User.ReadWrite.All"
+The Edge browser will open and you will be prompted to sign-in. Use the MOD Administrator account to connect. Accept the permissions request; then close the browser window.
+
+To verify that you are connected and to see existing users, run:
+
+TypeCopy
+Get-MgUser 
+To assign a common temporary password to all new users, run the following command and replace the with the password that you would like to provide to your users.
+
+TypeCopy
+$PWProfile = @{
+    Password = "<Enter a complex password you will>";
+    ForceChangePasswordNextSignIn = $false
+}
+You are ready to create a new users. The following command will be populated with the user information and run. If you have more than one user to add, you can use a notepad txt file to add the user information and copy/paste into PowerShell.
+
+TypeCopy
+New-MgUser `
+    -DisplayName "New PW User" `
+    -GivenName "New" -Surname "User" `
+    -MailNickname "newuser" `
+    -UsageLocation "US" `
+    -UserPrincipalName "newuser@<labtenantname.com>" `
+    -PasswordProfile $PWProfile -AccountEnabled `
+    -Department "Research" -JobTitle "Trainer"
+Note - Replace labtenantname.com with the onmicrosoft.com name assigned by the lab tenant.
 <img width="1122" height="626" alt="image" src="https://github.com/user-attachments/assets/95189cfb-67b5-4b3d-afb6-4c074b8eb189" />
 <img width="1426" height="776" alt="image" src="https://github.com/user-attachments/assets/dcba74d0-14f1-4b91-bac1-48b3aebf35f7" />
-<img width="1133" height="644" alt="image" src="https://github.com/user-attachments/assets/5fe88e07-30f0-4482-bd69-28c6342661cb" />
 <img width="1431" height="776" alt="image" src="https://github.com/user-attachments/assets/2780b41e-099f-40ad-93bc-1a26658ef760" />
 <img width="1431" height="773" alt="image" src="https://github.com/user-attachments/assets/c8797e6a-f437-4ec1-9b26-ab0202aece1d" />
 <img width="1431" height="782" alt="image" src="https://github.com/user-attachments/assets/9f47038d-7503-41be-8f74-5426977bca15" />
