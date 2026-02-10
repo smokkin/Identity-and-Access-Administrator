@@ -1,3 +1,23 @@
+Lab 03: Assigning licenses using group membership
+Login type = Microsoft 365 + E5 tenant log-in
+Lab scenario
+Your organization has decided to use security groups in Microsoft Entra ID to manage licenses. You need to configure a new security group and assign a license to that group and verify group member license's have been updated.
+
+Estimated time: 25 minutes
+Exercise 1 - Create a security group and add a user
+Task 1 - Check to see if Delia Dennis has access to Office 365
+Launch a new InPrivate browser window.
+
+Connect to https://www.office.com.
+
+Select Sign in and connect as Delia Dennis.
+
+Setting	Value
+Username	DeliaD@your domain name.com
+Password	Enter the User password provided for DeliaD
+You should connect to the Office.com website, but see a message indicating you don't have a license.
+
+Screen image the Office.com website with Delia Dennis logged in but no office applications are available, because no license is assigned.
 <img width="1431" height="771" alt="image" src="https://github.com/user-attachments/assets/bdbfbde6-538a-4339-bf01-48235536dc17" />
 
 
