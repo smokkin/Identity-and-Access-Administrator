@@ -268,8 +268,59 @@ Verify the user has been restored.
 <img width="1430" height="772" alt="image" src="https://github.com/user-attachments/assets/5bf81c26-a288-46a6-b4d5-c8538ea60eb8" />
 <img width="1428" height="779" alt="image" src="https://github.com/user-attachments/assets/ca6bf90c-e222-46e1-9205-15c00b67eb15" />
 
+Exercise 6 - Add a Windows 10 license to a user account
+Task 1 - Find your unlicensed user in Azure Active Directory
+Some user accounts in your organization will not be provided all available products in their assigned license or will need updates or additions to their license assignment. You need to ensure you are able to update a user account's license assignment in Microsoft Entra ID.
+
+Browse to https://entra.microsoft.com.
+
+In the left navigation, under Identity, select Users, then select All users.
+
+In the Users page, enter Raul into the search box.
+
+Select on Raul Razo.
+
+Review Raul's profile and ensure he has a Usage Location set.
+
+Warning - To assign a license to a user, the user must assigned a usage location.
+
+Select the Licenses menu item in the menu on the left.
+
+Ensure that Raul has "No license assignments found."
+
 <img width="1428" height="774" alt="image" src="https://github.com/user-attachments/assets/ecb51cca-0b88-4cb3-8555-846ac1e67c6e" />
 <img width="1432" height="773" alt="image" src="https://github.com/user-attachments/assets/5128e32d-e8af-4dd8-8a0d-a7940a5f4194" />
+
+Task 2 - Add a Windows license to Raul
+You have to add and remove licenses via the Microsoft 365 admin center. This is a relatively new change.
+
+Open a new tab in your browser.
+
+Connect to the Microsoft 365 admin center at https://admin.microsoft.com.
+
+Log in as your administrator account if prompted.
+
+From the menu on the left, select Billing and then select Licenses.
+
+Select Windows 10/11 Enterprise E3 license from the list.
+
+Choose the + Assign licenses item.
+
+Search for Raul Razo in the list.
+
+Once you have added Raul, select Assign.
+
+Return to the browser tab with Microsoft Entra admin center open.
+
+Navigate back to the All Users in the left navigation, under Identity, select Users
+
+In the Users page, select Raul Razo.
+
+In the left navigation, select Licenses.
+
+Notice that the license has been assigned.
+
+You can exit out of the license screen.
 
 <img width="1433" height="777" alt="image" src="https://github.com/user-attachments/assets/639578fe-5522-4d67-8c63-d190d9abf6f4" />
 <img width="1427" height="777" alt="image" src="https://github.com/user-attachments/assets/05ef0bf5-8d60-4b3c-93c6-1e0ee8216d45" />
