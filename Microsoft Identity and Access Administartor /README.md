@@ -161,6 +161,7 @@ Select Open.
 You will be notified that the file uploaded successfully.  Choose Submit to add the users.
 
 After the users have been created, you will be prompted that the creation has succeeded. Close the Bulk create users tile and the new users will be populated in the list of Users | All users.
+<img width="1434" height="775" alt="image" src="https://github.com/user-attachments/assets/3c8f3a6f-7b03-42a4-bcda-3771b23e9c14" />
 <img width="1434" height="777" alt="image" src="https://github.com/user-attachments/assets/bc41ca67-d7c3-4419-99c2-35d33844de6b" />
 <img width="1431" height="773" alt="image" src="https://github.com/user-attachments/assets/c91c1f91-95f3-4c54-a053-02bdf8124101" />
 <img width="806" height="554" alt="image" src="https://github.com/user-attachments/assets/d3cf7155-c7f1-4a19-9587-d1d86f0c761c" />
