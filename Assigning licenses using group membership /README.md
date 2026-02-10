@@ -20,7 +20,31 @@ You should connect to the Office.com website, but see a message indicating you d
 Screen image the Office.com website with Delia Dennis logged in but no office applications are available, because no license is assigned.
 <img width="1431" height="771" alt="image" src="https://github.com/user-attachments/assets/bdbfbde6-538a-4339-bf01-48235536dc17" />
 
+Task 2 - Create a security group in Microsoft Entra ID
+Browse to https://entra.microsoft.com.
 
+In the left navigation, under Identity, select Groups, then select All groups.
+
+In the Groups page, on the menu, select New group.
+
+Create a group using the following information:
+
+Setting	Value
+Group type	Security
+Group name	sg-SC300-O365
+Membership type	Assigned
+Owners	Assign your own administrator account as the group owner
+Select the No members selected text under Members.
+
+Select Delia Dennis from the list of users.
+
+Select the Select button.
+
+Screen image displaying the New Group page with Group type, Group name, Owners, and Members highlighted
+
+Select the Create button.
+
+When complete, verify the group named sg-SC300-O365 is shown in the All groups list.
 <img width="1430" height="773" alt="image" src="https://github.com/user-attachments/assets/02554469-2fc9-4b91-a4cc-c8bf18ac28ff" />
 <img width="1426" height="772" alt="image" src="https://github.com/user-attachments/assets/9f16aa6a-89b9-4f54-b305-7367779d06b2" />
 <img width="1431" height="777" alt="image" src="https://github.com/user-attachments/assets/c6570549-b536-4488-bf5c-96f9ff808124" />
