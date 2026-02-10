@@ -164,6 +164,8 @@ After the users have been created, you will be prompted that the creation has su
 <img width="1434" height="775" alt="image" src="https://github.com/user-attachments/assets/3c8f3a6f-7b03-42a4-bcda-3771b23e9c14" />
 <img width="1434" height="777" alt="image" src="https://github.com/user-attachments/assets/bc41ca67-d7c3-4419-99c2-35d33844de6b" />
 <img width="1431" height="773" alt="image" src="https://github.com/user-attachments/assets/c91c1f91-95f3-4c54-a053-02bdf8124101" />
+<img width="1428" height="774" alt="image" src="https://github.com/user-attachments/assets/c9bd0e91-03bc-45a7-aceb-e83264ad7391" />
+<img width="1439" height="848" alt="image" src="https://github.com/user-attachments/assets/88fff1e6-d486-4804-a0ba-df77d4d33d10" />
 <img width="806" height="554" alt="image" src="https://github.com/user-attachments/assets/d3cf7155-c7f1-4a19-9587-d1d86f0c761c" />
 
 <img width="1122" height="626" alt="image" src="https://github.com/user-attachments/assets/95189cfb-67b5-4b3d-afb6-4c074b8eb189" />
