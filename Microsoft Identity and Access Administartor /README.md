@@ -112,6 +112,23 @@ After delegating a role, it is a best practice to verify that the user can actua
 
 Chris Green now has the specific authority to add and manage applications within the tenant without having broad access
 
+Remove a role assignment
+Task 1 - Remove the application administrator from Chris Green
+This task will use an alternative method to remove the assigned role; it will use the Roles and administrators option in Micrisoft Entra ID.
+
+If you are not already logged in as an Admin, launch the Microsoft Entra admin center and log in now.
+In the search box type Roles and then launch Microsoft Entra ID roles and administration.
+In All roles of Roles and administrators, select the Application administrator role from the list.
+On the Application administrator | Assignments page you should see Chris Green's name listed.
+Scroll all the way to the right on Chris Green.
+Select Remove from the options at the top of the dialog.
+Answer Yes when the confirmation box opens.
+<img width="1426" height="769" alt="image" src="https://github.com/user-attachments/assets/dfccf7fd-30a2-46ce-a0bc-6a6092b57993" />
+<img width="1429" height="776" alt="image" src="https://github.com/user-attachments/assets/8c845cc1-d998-4af8-b310-55b98055f280" />
+<img width="1430" height="773" alt="image" src="https://github.com/user-attachments/assets/429ac02b-6994-4aa0-a086-ea79b8862724" />
+<img width="1428" height="774" alt="image" src="https://github.com/user-attachments/assets/3960b40e-6c90-4ad7-adc3-4281f3b1f7a6" />
+<img width="1429" height="772" alt="image" src="https://github.com/user-attachments/assets/f1d6fd48-4729-4b06-ae06-67b4b119e76f" />
+
 
 <img width="1431" height="773" alt="image" src="https://github.com/user-attachments/assets/c91c1f91-95f3-4c54-a053-02bdf8124101" />
 <img width="806" height="554" alt="image" src="https://github.com/user-attachments/assets/d3cf7155-c7f1-4a19-9587-d1d86f0c761c" />
