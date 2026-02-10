@@ -129,7 +129,39 @@ Answer Yes when the confirmation box opens.
 <img width="1428" height="774" alt="image" src="https://github.com/user-attachments/assets/3960b40e-6c90-4ad7-adc3-4281f3b1f7a6" />
 <img width="1429" height="772" alt="image" src="https://github.com/user-attachments/assets/f1d6fd48-4729-4b06-ae06-67b4b119e76f" />
 
+Exercise 4 - Bulk import of users
+Task 1 - Bulk operations for creating users with a .csv file
+In the Microsoft Entra ID menu, first open Identity, then select Users and then select All users.
 
+On the Users | All users tile, select the Bulk operations drop-down arrow and then Bulk create.
+
+Selecting Bulk create will open a new tile. This tile provides a Download link to a template file that you will edit to populate with your user information and upload to add the bulk creation of users.
+
+Select Download to download the .csv file.
+
+The .csv template provides you with the fields included with the user profile. This includes the required username, display name, and initial password. You can also complete optional fields, such as Department and Usage location, at this time. The following screenshot is an example of how you can complete the .csvfile:
+
+Bulk import using csv file entry
+
+You can modify this file to add users in bulk. Note that you do not need to fill out all the field. As per the sample data provide, you mainly need to add the name and username information.
+
+A sample CSV has been provided in the Allfiles/Labs/Lab1 folder -- SC300BulkUser.csv.
+
+Open Notepad.
+Inside the lab environment, select the START button and type Notepad.
+Open the SC300BulkUser.csv file
+Change the enter your domain name to the domain of your Azure lab environment.
+Save the file.
+On the Bulk create users dialog, select the file folder icon on step 3.
+
+Path to the Allfiles/Labs/Lab1 folder and select SC300BulkUser.csv file.
+
+Select Open.
+
+You will be notified that the file uploaded successfully.  Choose Submit to add the users.
+
+After the users have been created, you will be prompted that the creation has succeeded. Close the Bulk create users tile and the new users will be populated in the list of Users | All users.
+<img width="1434" height="777" alt="image" src="https://github.com/user-attachments/assets/bc41ca67-d7c3-4419-99c2-35d33844de6b" />
 <img width="1431" height="773" alt="image" src="https://github.com/user-attachments/assets/c91c1f91-95f3-4c54-a053-02bdf8124101" />
 <img width="806" height="554" alt="image" src="https://github.com/user-attachments/assets/d3cf7155-c7f1-4a19-9587-d1d86f0c761c" />
 
