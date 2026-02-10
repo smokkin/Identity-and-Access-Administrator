@@ -188,7 +188,13 @@ Review the members.
 <img width="1425" height="773" alt="image" src="https://github.com/user-attachments/assets/eac713af-2ffc-4476-900c-0eb2541464bb" />
 <img width="1428" height="772" alt="image" src="https://github.com/user-attachments/assets/74ecacfd-c2c8-464a-9dde-95a434544473" />
 
+Task 3 - Experiment with alternate rules
+Try making a group with only Guest users:
 
+(user.objectId -ne null) and (user.userType -eq "Guest")
+Try make a group with only Members of the Microsoft Entra users.
+
+(user.objectId -ne null) and (user.userType -eq "Member")
 <img width="1427" height="779" alt="image" src="https://github.com/user-attachments/assets/86ba676b-9a4f-4707-80a5-53069501b1f5" />
 <img width="1429" height="771" alt="image" src="https://github.com/user-attachments/assets/65ef7c2e-2903-4f2d-840b-e4e397f67a9d" />
 <img width="1432" height="776" alt="image" src="https://github.com/user-attachments/assets/104ab204-fb59-4651-932a-0707de8a0575" />
