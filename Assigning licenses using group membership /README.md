@@ -103,15 +103,69 @@ You should connect to the Office.com website, and see no messages regarding lice
 Screen image the Office.com website with Delia Dennis logged in with office applications available, because a license is assigned.
 <img width="1429" height="771" alt="image" src="https://github.com/user-attachments/assets/83a306b7-1433-47d1-8564-ccf09dad20c4" />
 
-<img width="1427" height="772" alt="image" src="https://github.com/user-attachments/assets/549ad2b4-9404-44f4-b80b-ab3924d06405" />
 
+Exercise 2 - Create a Microsoft 365 group in Microsoft Entra ID
+Task 1 - Create the group
+Part of your duties as an Microsoft Entra administrator is to create different types of groups. You need to create a new Microsoft 365 group for your organization's sales department.
 
+Browse to https://entra.microsoft.com.
+
+In the left navigation, under Identity, select Groups, then select All Groups.
+
+In the Groups page, on the menu, select New group.
+
+Create a group using the following information:
+
+Setting	Value
+Group type	Microsoft 365
+Group name	Northwest Sales
+Membership type	Assigned
+Owners	Assign your own administrator account as the group owner
+Members	Alex Wilber and Bianca Pisani
+Screen image displaying the New Group page with Group type, Group name, Owners, and Members highlighted
+
+When complete, verify the group named Northwest sales is shown in the All groups list.
 <img width="1427" height="773" alt="image" src="https://github.com/user-attachments/assets/f36abfbf-ea41-4db1-b2ee-16031ce97c3f" />
 <img width="1431" height="770" alt="image" src="https://github.com/user-attachments/assets/ec0a676c-14ef-4dbf-b5f5-b7d226d3e950" />
 <img width="1428" height="775" alt="image" src="https://github.com/user-attachments/assets/52ff22e8-af1c-472d-8f6e-dcb8dd5f53df" />
 <img width="1430" height="776" alt="image" src="https://github.com/user-attachments/assets/4fdfa22f-3c24-48ff-97ac-f43c37327ae5" />
 
+Exercise 3 - Creating a dynamic group with all users as members
+Task 1 - Create the dynamic group
+As your company grows, manually group management is too time consuming. Since standardizing the directory, you can now take advantage of dynamic groups. You must create a new dynamic group to ensure you're ready for dynamic group creation in production.
 
+Sign in to the https://entra.microsoft.com with an provided administrator account. You need at least User Administrator role in the tenant.
+
+Select Identity.
+
+Under Groups, select All groups, and then select New group.
+
+On the New Group page, under Group type, select Security.
+
+In the Group name box, enter SC300-myDynamicGroup.
+
+Select the Membership type menu and then select Dynamic User.
+
+Select an Owner for the group.
+
+Under Dynamic user members, select Add dynamic query.
+
+On the right above the Rule syntax box, select Edit.
+
+In the Edit rule syntax pane, enter the following expression in the Rule syntax box:
+
+powershell
+TypeCopy
+user.objectid -ne null
+Warning - the user.objectid is case sensitive.
+
+Select OK. The rule appears in the Rule syntax box.
+
+Screen image displaying the dynamic group membership rules page with rule syntax highlighted
+
+Select Save. The new dynamic group will now include B2B guest users as well as member users.
+
+On the New group page, select Create to create the group.
 <img width="1427" height="780" alt="image" src="https://github.com/user-attachments/assets/6835b88a-dee0-418b-9638-060d9dd66aed" />
 <img width="1424" height="771" alt="image" src="https://github.com/user-attachments/assets/bb2cd8c0-b2a9-4cba-bb01-3f738236a6bc" />
 <img width="1432" height="773" alt="image" src="https://github.com/user-attachments/assets/48d6e076-3f00-4062-abf0-8a19dc72c6e6" />
@@ -120,7 +174,17 @@ Screen image the Office.com website with Delia Dennis logged in with office appl
 <img width="1431" height="774" alt="image" src="https://github.com/user-attachments/assets/9e009300-442b-451c-a1a4-1ab93d01f3fd" />
 <img width="1429" height="772" alt="image" src="https://github.com/user-attachments/assets/32af7f7c-b732-4393-9d27-1479a51a5f2d" />
 
+Task 2 - Verify the members have been added
+Note - The population of Dynamic group membership may take up to 15 minutes.
 
+Select on the Home Microsoft Entra admin center.
+Launch Identity.
+In the Groups menu Select on All groups.
+In the filter box type SC300 and your newly created group will be listed.
+Select on SC300-myDynamicGroup to open the group.
+Notice that it shows that it contains 30+ *Direct members.
+Select on Members in the Manage menu.
+Review the members.
 <img width="1425" height="773" alt="image" src="https://github.com/user-attachments/assets/eac713af-2ffc-4476-900c-0eb2541464bb" />
 <img width="1428" height="772" alt="image" src="https://github.com/user-attachments/assets/74ecacfd-c2c8-464a-9dde-95a434544473" />
 
