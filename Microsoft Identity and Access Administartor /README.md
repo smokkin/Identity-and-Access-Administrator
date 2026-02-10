@@ -224,6 +224,41 @@ Note - Replace labtenantname.com with the onmicrosoft.com name assigned by the l
 <img width="1431" height="772" alt="image" src="https://github.com/user-attachments/assets/85bcc244-6e63-4e2b-a1eb-2050eedc0394" />
 <img width="1427" height="771" alt="image" src="https://github.com/user-attachments/assets/2797353b-4eb9-4f26-81d6-9c5f8c94a570" />
 
+Experiment with managing users
+You can add and remove users with the Microsoft Entra ID page. However, users can be created and roles can be assigned using the scripting. Experiment with giving the Chris Green user account a different role using script.
+
+Exercise 5 - Remove a user from Microsoft Entra ID
+Task 1 - Remove a User
+It may happen that an account is deleted and then needs to be recovered. You need to verify you can recover an account that has been deleted recently.
+
+Browse to https://entra.microsoft.com.
+
+In the left navigation, under Identity, select Users.
+
+Open the All users list, select the check box for a user that will be deleted. For example, select Chris Green.
+
+Tip - Selecting users from the list allows you to manage multiple users at the same time. If you select the user, to open that user’s page, you will only be managing that individual user.
+
+Screen image displaying the All users users list with one user check box selected and another check box highlighted indicating the ability to select multiple users from the list.
+
+With the user account selected, on the menu, select Delete.
+
+Review the dialog box and then select OK.
+
+Task 2 - Restore a deleted user
+In the Users page,select All User in the left navigation, select Deleted users.
+
+Review the list of deleted users and select Chris Green.
+
+Important - By default, deleted user accounts are permanently removed from Azure Active Directory automatically after 30 days.
+
+On the menu, select Restore user.
+
+Review the dialog box and then select OK.
+
+In the left navigation, select All users.
+
+Verify the user has been restored.
 <img width="1431" height="774" alt="image" src="https://github.com/user-attachments/assets/35a812cb-f92a-43cb-b262-ba2fa288184d" />
 <img width="1430" height="776" alt="image" src="https://github.com/user-attachments/assets/da62db29-fcd0-48bd-b34d-892ead7c4974" />
 <img width="1422" height="761" alt="image" src="https://github.com/user-attachments/assets/4cb706f8-b9cd-4c9c-8aa8-1cec68692346" />
