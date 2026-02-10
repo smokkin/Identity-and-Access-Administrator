@@ -47,6 +47,7 @@ Select the Create button.
 When complete, verify the group named sg-SC300-O365 is shown in the All groups list.
 <img width="1430" height="773" alt="image" src="https://github.com/user-attachments/assets/02554469-2fc9-4b91-a4cc-c8bf18ac28ff" />
 <img width="1426" height="772" alt="image" src="https://github.com/user-attachments/assets/9f16aa6a-89b9-4f54-b305-7367779d06b2" />
+<img width="1428" height="774" alt="image" src="https://github.com/user-attachments/assets/524568a1-35de-4f28-8c85-b33cdb03505a" />
 <img width="1431" height="777" alt="image" src="https://github.com/user-attachments/assets/c6570549-b536-4488-bf5c-96f9ff808124" />
 <img width="1430" height="770" alt="image" src="https://github.com/user-attachments/assets/303f11b6-891a-4f01-ac2a-f42a850f3c7f" />
 
@@ -88,6 +89,20 @@ Notice that the Office 365 E3 license has been assigned.
 <img width="1428" height="774" alt="image" src="https://github.com/user-attachments/assets/25a8bbd6-38de-4da5-a723-1a6147364007" />
 <img width="1427" height="772" alt="image" src="https://github.com/user-attachments/assets/4cbfe52a-e0a5-47d6-99b4-1a4613957398" />
 
+Task 4 - Confirm the Office 365 license
+Launch a new InPrivate browser window.
+
+Connect to https://www.office.com.
+
+Select Sign in and connect as Delia Dennis.
+
+Setting	Value
+Username	DeliaD@your domain name.com
+Password	Enter the password of the provided password
+You should connect to the Office.com website, and see no messages regarding license. All of the Office applications are available on the left.
+
+Screen image the Office.com website with Delia Dennis logged in with office applications available, because a license is assigned.
+<img width="1429" height="771" alt="image" src="https://github.com/user-attachments/assets/83a306b7-1433-47d1-8564-ccf09dad20c4" />
 
 <img width="1427" height="772" alt="image" src="https://github.com/user-attachments/assets/549ad2b4-9404-44f4-b80b-ab3924d06405" />
 
