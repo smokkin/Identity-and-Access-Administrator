@@ -247,6 +247,7 @@ Review the dialog box and then select OK.
 
 <img width="1431" height="774" alt="image" src="https://github.com/user-attachments/assets/35a812cb-f92a-43cb-b262-ba2fa288184d" />
 <img width="1430" height="776" alt="image" src="https://github.com/user-attachments/assets/da62db29-fcd0-48bd-b34d-892ead7c4974" />
+<img width="1422" height="761" alt="image" src="https://github.com/user-attachments/assets/4cb706f8-b9cd-4c9c-8aa8-1cec68692346" />
 
 Task 2 - Restore a deleted user
 In the Users page,select All User in the left navigation, select Deleted users.
@@ -262,7 +263,6 @@ Review the dialog box and then select OK.
 In the left navigation, select All users.
 
 Verify the user has been restored.
-<img width="1422" height="761" alt="image" src="https://github.com/user-attachments/assets/4cb706f8-b9cd-4c9c-8aa8-1cec68692346" />
 
 <img width="1429" height="771" alt="image" src="https://github.com/user-attachments/assets/dd2cd88e-c4ac-49f7-bd70-bc1049f509af" />
 <img width="1430" height="772" alt="image" src="https://github.com/user-attachments/assets/5bf81c26-a288-46a6-b4d5-c8538ea60eb8" />
