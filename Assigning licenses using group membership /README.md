@@ -50,7 +50,38 @@ When complete, verify the group named sg-SC300-O365 is shown in the All groups l
 <img width="1431" height="777" alt="image" src="https://github.com/user-attachments/assets/c6570549-b536-4488-bf5c-96f9ff808124" />
 <img width="1430" height="770" alt="image" src="https://github.com/user-attachments/assets/303f11b6-891a-4f01-ac2a-f42a850f3c7f" />
 
+Task 3 - Add an Office license to sg-SC300-O365
+Lab Tip - You have to add and remove licenses via the Microsoft 365 admin center. This is a relatively new change.
 
+Open a new tab in your browser.
+
+Connect to the Microsoft 365 admin center at http://admin.microsoft.com.
+
+Log in as your administrator account if prompted.
+
+From the menu on the left, select Billing and then select Licenses.
+
+Select Office 365 E3 license from the list.
+
+Select the Groups tab on the licensing screen.
+
+Choose the + Assign licenses item.
+
+Search for sg-SC300-O365 group the select it from the list.
+
+Once you have added the group, select Assign.
+
+Close the confirmation message.
+
+Return to the browser tab with Microsoft Entra admin center open.
+
+Navigate back to the All groups in the left navigation, under Identity, select Groups
+
+In the Groups page, select sg-SC300-O365.
+
+In the left navigation, select Licenses.
+
+Notice that the Office 365 E3 license has been assigned.
 <img width="1431" height="776" alt="image" src="https://github.com/user-attachments/assets/1506285c-67c0-4316-836f-aa7750583751" />
 <img width="1428" height="774" alt="image" src="https://github.com/user-attachments/assets/6c4648f5-7c6b-40c0-9898-53dbfa99e6e5" />
 <img width="1426" height="772" alt="image" src="https://github.com/user-attachments/assets/571f3882-1713-410b-b0bf-f059a49fd531" />
