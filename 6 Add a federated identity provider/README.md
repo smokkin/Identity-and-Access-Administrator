@@ -66,8 +66,4 @@ You can lease your project in this state, we don't need to publish.
 
 <img width="1431" height="778" alt="image" src="https://github.com/user-attachments/assets/e035eb37-cb4c-4b5f-9109-f9ffeb191ebb" />
 <img width="1438" height="781" alt="image" src="https://github.com/user-attachments/assets/3b4c5430-763c-46f9-8be0-be59608540f6" />
-<img width="1438" height="781" alt="image" src="https://github.com/user-attachments/assets/3b4c5430-763c-46f9-8be0-be59608540f6" />
-![Uploading image.png…]()
-![Uploading image.png…]()
 
-<img width="1431" height="778" alt="image" src="https://github.com/user-attachments/assets/e035eb37-cb4c-4b5f-9109-f9ffeb191ebb" />
