@@ -71,5 +71,55 @@ To view the job status, select Select here to view the status of each operation.
 Screen image displaying the results of a bulk operation
 
 When the job completes, you will see a notification that the bulk operation succeeded.
+<img width="1430" height="778" alt="image" src="https://github.com/user-attachments/assets/0eaab85b-f3bd-48c7-8324-e93b7629d714" />
+<img width="1431" height="775" alt="image" src="https://github.com/user-attachments/assets/97f43a18-3eab-4d9b-9fcf-c2107c1570f0" />
+<img width="1436" height="848" alt="image" src="https://github.com/user-attachments/assets/100e5a3a-3b29-4138-8af0-cc6ecc273071" />
+<img width="1428" height="781" alt="image" src="https://github.com/user-attachments/assets/28563922-c6d0-4189-bcc1-04cc199e1c5c" />
+<img width="1434" height="773" alt="image" src="https://github.com/user-attachments/assets/ddcf1481-83fd-4d36-9e86-3fb2bd9dc300" />
+<img width="1427" height="780" alt="image" src="https://github.com/user-attachments/assets/8b469abd-17e1-40e6-b420-7017e1a9e533" />
+
+Task 2 - Invite guest users with PowerShell
+Open PowerShell. This can be done by searching for PowerShell in Windows.
+
+Note - You need to have PowerShell version 7.2 or higher for this lab to function. When PowerShell opens you will get a version at the top of the screen, if you are running and older version, please update or this portion of the lab will fail.
+
+Lab Tip - The TouchType feature in the lab environment has issues typing into PowerShell. If you launch Notepad in your lab, then use TouchType to load the PowerShell instructions into Notepad, you can use Cut & Paste to enter them into PowerShell without typing.
+
+You will need to Install the Microsoft.Graph PowerShell module if you have not used it before. Run the following two commands and when prompted to confirm press Y:
+
+TypeCopy
+Install-Module Microsoft.Graph -Scope CurrentUser -Verbose
+Confirm the Microsoft.Graph module is installed:
+
+TypeCopy
+Get-InstalledModule Microsoft.Graph
+Next, you will need to login to Azure by running:
+
+TypeCopy
+Connect-MgGraph -Scopes "User.ReadWrite.All"
+The Edge browser will open and you will be prompted to sign-in. Use the MOD Administrator account to connect. Mark the consent box, then accpet the permissions request; then close the browser window.
+
+Set the values for the email and redirect for the External user:
+
+TypeCopy
+Import-Module Microsoft.Graph.Identity.SignIns
+
+$params = @{
+    invitedUserEmailAddress = "admin@fabrikam.com"
+    inviteRedirectUrl = "https://myapp.contoso.com"
+}
+Sent the MgInvitation command to invite the External user:
+
+TypeCopy
+New-MgInvitation -BodyParameter $params
+You can close PowerShell at this point.
+
+You now know how to invite users within the Microsoft Entra admin center, Microsoft 365 Admin center, Bulk invitations with a csv file, and inviting users with PowerShell commands. You can go into the Microsoft Entra admin center, and check All Users to see that ADMIN has been added as an external suer.
+
+
+When the job completes, you will see a notification that the bulk operation succeeded.
+
+<img width="1429" height="780" alt="image" src="https://github.com/user-attachments/assets/352ff55b-eba5-47f6-aac7-124e3b382cd4" />
+<img width="1430" height="772" alt="image" src="https://github.com/user-attachments/assets/e04fc964-4e48-4fa1-97b2-255ffee1b539" />
 
 
