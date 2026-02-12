@@ -77,6 +77,8 @@ When the job completes, you will see a notification that the bulk operation succ
 <img width="1428" height="781" alt="image" src="https://github.com/user-attachments/assets/28563922-c6d0-4189-bcc1-04cc199e1c5c" />
 <img width="1434" height="773" alt="image" src="https://github.com/user-attachments/assets/ddcf1481-83fd-4d36-9e86-3fb2bd9dc300" />
 <img width="1427" height="780" alt="image" src="https://github.com/user-attachments/assets/8b469abd-17e1-40e6-b420-7017e1a9e533" />
+<img width="1426" height="777" alt="image" src="https://github.com/user-attachments/assets/2f41d2b6-52c0-4dac-86f6-2dc1a2c379cb" />
+<img width="1429" height="774" alt="image" src="https://github.com/user-attachments/assets/c3c3aef3-94c8-4991-b003-8b1eeab64db2" />
 
 Task 2 - Invite guest users with PowerShell
 Open PowerShell. This can be done by searching for PowerShell in Windows.
@@ -121,5 +123,6 @@ When the job completes, you will see a notification that the bulk operation succ
 
 <img width="1429" height="780" alt="image" src="https://github.com/user-attachments/assets/352ff55b-eba5-47f6-aac7-124e3b382cd4" />
 <img width="1430" height="772" alt="image" src="https://github.com/user-attachments/assets/e04fc964-4e48-4fa1-97b2-255ffee1b539" />
+<img width="1430" height="777" alt="image" src="https://github.com/user-attachments/assets/334b4df8-1aab-4bcb-be70-660937d0d49f" />
 
 
