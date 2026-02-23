@@ -75,6 +75,7 @@ Complete the process by selecting Done when you successfully registered.
 
 Note - at this point you have both registered for SSPR and MFA in a single step.
 <img width="482" height="680" alt="image" src="https://github.com/user-attachments/assets/85a96e47-f6e0-4db9-891a-35476591ad34" />
+hiug
 
 
 
