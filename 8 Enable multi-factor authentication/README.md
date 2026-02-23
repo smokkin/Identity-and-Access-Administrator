@@ -89,6 +89,43 @@ Note - At this point one of two things will happen. You should get a message tha
 
 You can see that because of the Conditional Access rule we created for Delia, MFA is required to launch Office 365 home page.
 
+Exercise 2 - Configure MFA to be required for login
+Task 1 - Configure Microsoft Entra Per-User MFA
+Finally, let's look at how to configure MFA for user accounts. This is another way to get to the multi-factor auth settings.
+
+Switch back to the Microsoft Entra admin center and find the Indentity left-hand navigation menu.
+
+Select Users, then select All users.
+
+At the top of the Users pane, select Per-user MFA.
+
+NOTE: you may have to use the elipsis (…) to get to the Per-user MFA menu item.
+Screenshot showing the MFA option
+
+A new browser tab/window will open with a multi-factor authentication user settings dialog.
+
+You can enable or disable MFA on a user basis by selecting a user and then using the quick steps on the right side.
+
+Screenshot showing the MFA options
+
+Select Adele Vance with a check-mark.
+
+Select the Enable MFA option under quick steps.
+
+Read the notification popup if you get it, then select enable button.
+
+Select Close.
+
+Notice that Adele now has Enabled as her MFA status.
+
+You can select service settings to see the MFA setting screen, seen earlier in the lab.
+
+Close the MFA setting tab.
+<img width="1430" height="766" alt="image" src="https://github.com/user-attachments/assets/9d5680b1-856f-4d19-a381-cc9686f0b10d" />
+<img width="1427" height="764" alt="image" src="https://github.com/user-attachments/assets/52760032-ce06-4bba-8740-eb6bd2364766" />
+<img width="1428" height="762" alt="image" src="https://github.com/user-attachments/assets/9ee50962-8b10-4d74-a7f9-416f2b56d3f2" />
+<img width="521" height="627" alt="image" src="https://github.com/user-attachments/assets/1d60e577-4777-4d65-b07c-f3c5aff73d3b" />
+
 
 
 
