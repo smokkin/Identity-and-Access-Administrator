@@ -75,10 +75,51 @@ Complete the process by selecting Done when you successfully registered.
 
 Note - at this point you have both registered for SSPR and MFA in a single step.
 <img width="482" height="680" alt="image" src="https://github.com/user-attachments/assets/85a96e47-f6e0-4db9-891a-35476591ad34" />
-hiug
+<img width="609" height="684" alt="image" src="https://github.com/user-attachments/assets/e437c5ff-a29d-4b0a-bb0f-14d5b0bbbb39" />
+<img width="1443" height="814" alt="image" src="https://github.com/user-attachments/assets/3aed95df-3ea6-42e3-a563-d19eba86a1c7" />
 
+Task 4 - Test SSPR
+Now let's test whether the user can reset their password.
 
+Open a different browser or open an InPrivate or Incognito browser session and then browse to https://portal.azure.com.
 
+This is to ensure you well be prompted for user authentication.
+
+enter AllanD@ <<organization-domain-name>>.onmicrosoft.com and then select Next.
+
+Note - Replace the organization-domain-name with your domain name.
+
+On the Enter password page, select Forgot my password.
+
+On the Get back into your account page, complete the requested information and then select Next.
+
+Follow the on-screen instructions to get the verification code from Microsoft Authenticator app.
+
+Enter your verification code and then select Next.
+
+In the choose a new password step, enter and then confirm your new password.
+
+When complete, select Finish.
+
+Sign in as AllanD with the new password you created.
+
+Enter your verification code and then verify you can complete the sign in process.
+
+<img width="457" height="453" alt="image" src="https://github.com/user-attachments/assets/8a1a9263-b4fc-4f19-be28-17a2691ea9db" />
+<img width="513" height="416" alt="image" src="https://github.com/user-attachments/assets/52b7e518-88cb-41c4-a448-961a55f463e8" />
+<img width="1427" height="766" alt="image" src="https://github.com/user-attachments/assets/87628b38-3e95-4975-9bd6-be0c63a738c7" />
+<img width="1426" height="768" alt="image" src="https://github.com/user-attachments/assets/52ffd445-7eb6-4a1e-8309-8011880bc5f7" />
+<img width="1427" height="765" alt="image" src="https://github.com/user-attachments/assets/6c991b03-b570-45d7-8cb4-593cf37247d1" />
+<img width="1427" height="765" alt="image" src="https://github.com/user-attachments/assets/ecc1f9dd-7a0c-48e6-a4c5-46d9e2032ab5" />
+<img width="1428" height="767" alt="image" src="https://github.com/user-attachments/assets/a68784f2-13b5-43eb-99c9-a06ac8e6e00a" />
+<img width="423" height="390" alt="image" src="https://github.com/user-attachments/assets/23ccca5f-38c1-4391-9b08-e4e913f78cbb" />
+<img width="426" height="577" alt="image" src="https://github.com/user-attachments/assets/d7ddd4cd-5c6e-4425-afc9-5a61e05fc821" />
+<img width="1427" height="766" alt="image" src="https://github.com/user-attachments/assets/f662cd3f-4ae1-45ac-85d0-425c7a8d4ddf" />
+
+Task 5 - What happens if you try a user not in SSPRTesters group?
+As a test, open a new InPrivate browser window and try to log into the Azure Portal as GradyA, and select Forgot my password option.
+<img width="444" height="400" alt="image" src="https://github.com/user-attachments/assets/8223af8f-be51-490e-a75e-d4cc374721bc" />
+<img width="1431" height="765" alt="image" src="https://github.com/user-attachments/assets/7bb36688-1a93-435a-8c67-0d5b8c7dd0b1" />
 
 
 
