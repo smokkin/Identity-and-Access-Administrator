@@ -72,5 +72,148 @@ IMPORTANT - Conditional Access policy controls (including terms of use) do not s
 When complete, select Create.
 
 Screen image displaying the New terms of use page with configured options highlighted
+<img width="1430" height="768" alt="image" src="https://github.com/user-attachments/assets/e8cd264a-cfe4-44ea-833a-eeeab26cc11a" />
+<img width="1429" height="767" alt="image" src="https://github.com/user-attachments/assets/5a9d6dff-bad5-462e-a06f-e517c846a3af" />
 
+Continued Task 1 - Create the Conditional Access Policy
+When the terms of use is created, you will automatically be redirected to the Conditional access policy page. On the page, in the Name box, enter Enforce ToU.
 
+Under Assignments, select Users identities.
+
+On the Include tab choose Select users and groups, then select Users and groups check box.
+
+In the Select pane, select Adele Vance to use to test the terms of use policy.
+
+Warning - If you choose your administrator account, like all conditional access policies, be sure you have another account with enough permissions to change the conditional access policy. This is to ensure your administrator account will not be locked out should the conditional access policy result in an undesirable outcome.
+
+Select Target resources.
+
+Select All cloud apps.
+
+Under Access controls, select Grant.
+
+In the Grant pane, select Contoso Terms of Use and then select Select.
+
+Under Enable policy, select On.
+
+When complete, select Create.
+
+Screen image displaying the conditional access policy with configuration options highlighted
+
+If you chose to use your own account, you can refresh your browser. You will be prompted to sign in again. When you sign in, you will be required to accept the terms of use.
+
+<img width="1423" height="767" alt="image" src="https://github.com/user-attachments/assets/5386b4ef-0820-422d-bd31-837be46cc944" />
+<img width="1427" height="768" alt="image" src="https://github.com/user-attachments/assets/e9ec370d-6d34-4500-b3dc-f7d0c47f05fe" />
+<img width="1431" height="766" alt="image" src="https://github.com/user-attachments/assets/23cc1f17-cead-46d3-92d2-5c404c4584ff" />
+<img width="1429" height="777" alt="image" src="https://github.com/user-attachments/assets/19827001-331a-4d69-862d-832329b25d21" />
+<img width="1427" height="770" alt="image" src="https://github.com/user-attachments/assets/9c91364b-02e0-4e4e-9c2e-9351cf493089" />
+
+Task 2 - Log in as Adele
+Open a new InPrivate browser window.
+
+Connect to https://portal.azure.com.
+
+If if comes up saying you are already logged in, Select on the logged in users name in the upper-right of the screen and choose Sign in with a different account.
+
+Log in as Adele:
+
+Setting	Value to enter
+User Name	AdeleV@ <<your domain name>>.onmicrosoft.com
+Password	Enter the tenant's admin password(Refer the Lab Resources tab to retrieve the tenant admin password)
+Validate Adele's login with the MFA request.
+
+View the Terms of Use.
+
+You can choose to Accept or Decline.
+
+Note - If you choose decline then during a future login as AdeleV you will again be required to view and accept the Terms of Use.
+
+Note: Terms of Use may take a few minutes to appear or you can logout and log back in to the portal.
+<img width="466" height="584" alt="image" src="https://github.com/user-attachments/assets/8b96de03-11af-4a0f-8ca1-2873470b8611" />
+<img width="472" height="662" alt="image" src="https://github.com/user-attachments/assets/16f8a94b-47ae-4c7b-8917-e5d93f6a94ba" />
+<img width="1422" height="760" alt="image" src="https://github.com/user-attachments/assets/8289a7cb-bfcb-4620-aae9-f94daf63f8f7" />
+<img width="1425" height="762" alt="image" src="https://github.com/user-attachments/assets/1593bdb5-42ec-453b-a183-7cbd9eaa2a80" />
+
+Task 3 - View report of who has accepted and declined
+The Terms of use page shows a count of the users who have accepted and declined. These counts and who accepted/declined are stored for the life of the terms of use.
+
+In Microsoft Azure, in Identity Governance > Terms of use, locate your terms of use.
+
+For a terms of use, select the numbers under Accepted or Declined to view the current state for users.
+
+Screen image displaying the terms of use with the Accepted and Declined columns highlighted
+
+In this exercise you may not have any accepted or declined terms of use. In the following example, the Accepted value was selected. You can see the reported user information for those that have accepted the terms of use.
+
+Terms of use consents pane listing the users that have accepted
+
+On the Terms of Use Consents page select Download to download a consents report.
+
+On the Identity Governance | Terms of Use page, highlight Testing terms of use and select View selected audit logs to view the audit logs activity.
+
+Task 5 - How users can review their terms of use
+Users can review and see the terms of use that they have accepted by using the following procedure.
+
+Browse to https://myapps.microsoft.com/ and then sign in using your user account.
+
+Select the user profile photo and then select View account. On the Overview page, select VIEW SETTINGS AND PRIVACY.
+
+Screen image of a popup which says "View settings and privacy"
+
+On the Settings & Privacy page, select the Privacy tab.
+
+Screen image displaying the settings and privacy page with organization
+
+Under Organization’s notice, you can review the terms of use you have accepted.
+
+Task 6 - Edit terms of use details
+You can edit some details of terms of use, but you can't modify an existing document. The following procedure describes how to edit the details.
+
+Sign in to the https://entra.microsoft.com as a Global administrator.
+
+Open Microsoft Entra ID item and the select Identity Governance from the menu.
+
+In the left navigation menu, under Entitlement management, select Terms of use.
+
+Select the terms of use you want to edit.
+
+Note: You have to click on open space, not directly on name of the Terms or Use.
+
+On the top menu, select Edit terms.
+
+In the Edit terms of use pane, you can change the following:
+
+Name – this is the internal name of the ToU that is not shared with end users
+
+Display name – this is the name that end users can see when viewing the ToU
+
+Require users to expand the terms of use – Setting this to On will force the end use to expand the terms of use document before accepting it.
+
+Update an existing terms of use document.
+
+You can add a language to an existing ToU If there are other settings you would like to change, such as require users to consent on every device, expire consents, duration before reacceptance, or Conditional Access policy, you must create a new terms of use.
+
+Screen image of the Identity Governance terms of use being edited.
+
+Once you are done, select Save to save your changes.
+
+Task 7 - Update an existing terms of use document
+You may, on occasion, be required to update the terms of use document.
+
+Select the terms of use you want to edit.
+
+Select Edit terms.
+
+In the Language Options table, identify the terms of use language you want to update and then, in the Action column, select Update.
+
+Screen image displaying the terms of use with the update option highlighted
+
+In the Update terms of use version pane, you can upload a new version of your terms of use document.
+
+Additionally, you can use the Require reaccept toggle button if you want to require your users to accept this new version the next time they sign in. If you do not require your users to re-accept, their previous consent will stay current and only new users who have not consented before or whose consent expires will see the new version.
+
+Screen image displaying the update terms of use version pane with the upload required pdf and require re-accept highlighted
+
+Once you have uploaded your new pdf and decided on re-accept, select Add.
+
+You will now see the most recent version under the Document column.
