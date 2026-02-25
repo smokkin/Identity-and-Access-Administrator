@@ -85,5 +85,20 @@ Select Create to create the access policy.
 
 <img width="1426" height="765" alt="image" src="https://github.com/user-attachments/assets/17de7197-143a-4413-98c5-b84840956e21" />
 
-
+Task 2 - Log in as Pradeep to Forms to trigger activity
+Launch a new InPrivate browsing window.
+Connect to https://forms.microsoft.com.
+Select the login in the upper-right corner of the page.
+Log in as Pradeep Gupta.
+Username = PradeepG@ [your lab hoster provided domain]
+Password = the password from your resources tab
+Confirm that Pradeep has access and that you get a new message:
+Your company is monitoring the usage of this application.
+Close the InPrivate browsing window.
+Task 3 - Review the Activity in Defender for Cloud Apps
+Return to the browswer running Defender for Cloud Apps.
+Refresh the browser to ensure the most recent data is downloaded.
+From the Cloud Apps menu, select Activity log.
+Using the App: filter pick Microsoft Forms from the list.
+Notice the sign-on records for Pradeep.
 
