@@ -150,6 +150,22 @@ Terms of use consents pane listing the users that have accepted
 On the Terms of Use Consents page select Download to download a consents report.
 
 On the Identity Governance | Terms of Use page, highlight Testing terms of use and select View selected audit logs to view the audit logs activity.
+<img width="1424" height="770" alt="image" src="https://github.com/user-attachments/assets/c9ba1844-8c5f-4180-9648-c8ebd68a7ee7" />
+<img width="1423" height="766" alt="image" src="https://github.com/user-attachments/assets/33113648-cce0-4d24-88ed-a69efb61d9f0" />
+<img width="1430" height="765" alt="image" src="https://github.com/user-attachments/assets/c2e3f2ba-2675-4b96-b898-1e6c538b6961" />
+<img width="1425" height="764" alt="image" src="https://github.com/user-attachments/assets/814baa70-88d8-4eaa-abce-70d1ceeab8a6" />
+
+Task 4 - What terms of use looks like for users
+Once a terms of use is created and enforced, users who are in scope will see the terms of use page.
+
+Example terms of use that appears when a user signs in
+
+Users can view the terms of use and, if necessary, use buttons to zoom in and out.
+
+View of terms of use with zoom buttons
+
+On mobile devices, the terms of use will be displayed similar to the following example.
+
 
 Task 5 - How users can review their terms of use
 Users can review and see the terms of use that they have accepted by using the following procedure.
@@ -165,6 +181,9 @@ On the Settings & Privacy page, select the Privacy tab.
 Screen image displaying the settings and privacy page with organization
 
 Under Organization’s notice, you can review the terms of use you have accepted.
+
+<img width="1428" height="765" alt="image" src="https://github.com/user-attachments/assets/cf9c7100-30d6-42ab-93bb-595f608aeb5a" />
+<img width="1426" height="762" alt="image" src="https://github.com/user-attachments/assets/90f075d0-55c9-4d2f-94cd-3f7e57e6deb2" />
 
 Task 6 - Edit terms of use details
 You can edit some details of terms of use, but you can't modify an existing document. The following procedure describes how to edit the details.
@@ -197,6 +216,9 @@ Screen image of the Identity Governance terms of use being edited.
 
 Once you are done, select Save to save your changes.
 
+<img width="1426" height="769" alt="image" src="https://github.com/user-attachments/assets/f89f6479-9184-4d6d-8cf1-d387d3288119" />
+<img width="1429" height="765" alt="image" src="https://github.com/user-attachments/assets/ac9e0bc3-fdde-4f6b-8661-9f5774e6cbee" />
+
 Task 7 - Update an existing terms of use document
 You may, on occasion, be required to update the terms of use document.
 
@@ -217,3 +239,7 @@ Screen image displaying the update terms of use version pane with the upload req
 Once you have uploaded your new pdf and decided on re-accept, select Add.
 
 You will now see the most recent version under the Document column.
+<img width="1424" height="766" alt="image" src="https://github.com/user-attachments/assets/8a4675f1-7aa8-4aba-a50e-4185e976519a" />
+<img width="1426" height="767" alt="image" src="https://github.com/user-attachments/assets/7cdb40a4-fecc-4579-96ac-7f957013aa51" />
+<img width="1428" height="765" alt="image" src="https://github.com/user-attachments/assets/a7968d99-2083-4309-90cb-36598f842b57" />
+
